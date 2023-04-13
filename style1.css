@@ -1,0 +1,80 @@
+/* Set background color and font family for the whole page */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  .resultSection {
+    
+    background-color: #ffc107;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  /* Style the card title */
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  /* Style the degree input label */
+  label[for="degreeInput"] {
+    margin-top: 1rem;
+    display: block;
+  }
+  
+  /* Style the degree input */
+  #inputDegree {
+    border-radius: 5px 0 0 5px;
+  }
+  
+  /* Style the degree input select */
+  #selectInputDegreeType {
+    border-radius: 0 5px 5px 0;
+  }
+  
+  /* Style the conversion select */
+  #selectConversionType {
+    border-radius: 5px;
+  }
+  
+  /* Style the conversion button */
+  .convertBtn {
+    background-color: #007bff;
+    border: none;
+  }
+  /* Style the conversion button icon */
+  .convertBtn svg {
+    margin-left: 0.5rem;
+  }
+  /* Style the result value section */
+  #resultValueSection {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  /* Style the converted degree */
+  #convertedDegree {
+    display: inline-block;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  /* Style the degree and converted unit */
+  #degree,
+  #convertedUnit {
+  color: #007bff;
+    display: inline-block;
+    text-align: start;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    margin-top: 30px;
+  }
+  
+  /* Style the result value section for negative values */
+  #resultValueSection.negative {
+    color: red;
+  }
+  
